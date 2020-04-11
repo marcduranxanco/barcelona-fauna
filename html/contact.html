@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="language" content="EN">
+        
+        <meta name="keywords" content="HTML, CSS, Website">
+        <meta name="author" content="Marc Duran">
+        <meta name="description" content="Reto 1. Website. Corresponding to the Online Bootcamp Frontend React Geekshubs Academy">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <base href="../"/>
+        <title>Reto 1 - Website - Contact</title>
+        
+        <script src="https://kit.fontawesome.com/924ca84f65.js" crossorigin="anonymous"></script>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+    </head>
+    <body>
+        <header>
+            <h1>BARCELONA FAUNA</h1>
+        </header>
+
+        <main>
+            <!-- 
+                CONTACT:
+                    Site splitted in two main parts
+                    At left: Contact form
+                    At right: Location Map
+            -->
+            <h2>Contact</h2>
+
+            <!-- FORM CONTACT -->
+            <form action="#" method="post">      
+                <label for="email">Your Email:</label>
+                <input type="email" name="email" placeholder="e.g. alex@smith.com" >
+                <br>
+                <label for="mensaje">Let us a message!</label>
+                <textarea name="mensaje" placeholder="Comparte tu opinión" ></textarea>
+                <br>
+                <label for="terms">I agree to the terms</label>
+                <input type="checkbox" name="terms">
+                <br>
+                <button>Send</button>
+            </form>
+
+            <!-- <div id='map' style='width: 400px; height: 300px;'></div> -->
+        </main>
+
+        <footer class="flex-ctr">
+            <nav>
+                <div><a href="index.html">Home</a></div>
+                <div><a href="html/profile.html">About Me</i></a></div>
+                <div><a href="html/contact.html">Contact</a></div>
+            </nav>
+            <section class="credits">
+                Marc Duran Xancó · 2020
+            </section>
+        </footer>
+
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoibWFyY2R1cmFueGFuY28iLCJhIjoiY2s4cmZvM2lpMDJiMTNscGppeDJuOGUxeCJ9.K35g7tHD4ztWZ-wrryQzFw';
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            zoom: 8,
+            center: [2.1589899, 41.3887901]});
+        </script>
+    </body>
+</html>
