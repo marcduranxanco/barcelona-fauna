@@ -22,7 +22,7 @@
             <h1>BARCELONA FAUNA</h1>
         </header>
 
-        <main>
+        <main class="general">
             <!-- 
                 CONTACT:
                     Site splitted in two main parts
@@ -45,7 +45,9 @@
                 <button>Send</button>
             </form>
 
-            <!-- <div id='map' style='width: 400px; height: 300px;'></div> -->
+            <section>
+                <div id='map'></div>
+            </section>
         </main>
 
         <footer class="flex-ctr">
@@ -64,7 +66,7 @@
             var map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/mapbox/streets-v11',
-            zoom: 8,
+            zoom: 10,
             center: [2.1589899, 41.3887901]});
         </script>
     </body>
