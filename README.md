@@ -1,6 +1,6 @@
 # Reto 1 - Website
 ### GeekHubs Academy - Bootcamp Full Stack Developer
-Personal website
+Website prototype
 
 ## Technologies used
 * HTML5
