@@ -56,14 +56,11 @@ h3 {
 h3.h3_title {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
-
+    flex-direction: row-reverse;
     font-weight: 200;
 }
 
 a {
-
     color: #F0F0F2;
 }
 
@@ -71,8 +68,8 @@ span.general {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    font-size: 2em;
+    justify-content: space-between;
+    font-size: 1em;
 }
 
 /* END FONT STYLES */
@@ -127,6 +124,10 @@ nav, a, .credits {
     grid-gap: 1em;
 }
 
+section > img {
+    width: 100%;
+}
+
 .home {
     display: flex;
     flex-wrap: wrap;
@@ -139,15 +140,14 @@ nav, a, .credits {
 
 /* Grid pictures */
 .picture {
-    position: relative;
-
-    background: salmon;
+    
     display: flex;
     align-items: center;
     align-content: flex-end;
+    background: salmon;
+    position: relative;
     height: 200px;
     
-    /* Flex Fallback */
     margin-left: 5px;
     margin-right: 5px;
     flex: 1 1 200px;
@@ -171,7 +171,6 @@ nav, a, .credits {
     opacity: 0.1;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    
 }
 
 /* Text over image */
@@ -184,13 +183,11 @@ nav, a, .credits {
     -webkit-transition: 1s ease-in;
     transition: 1s ease-in;
 
-    /* Align text to center */
     position: absolute;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
 /* END MAIN CONTENT */
 
 /* BEGIN FORM CONTACT */
