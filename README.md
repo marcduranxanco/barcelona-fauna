@@ -1,6 +1,5 @@
 # Reto 1 - Website
 ### GeekHubs Academy - Bootcamp Full Stack Developer
-Website prototype -> http://gh-reto1-website.duranxanco.com/
 
 ## Technologies used
 * HTML5
