@@ -1,4 +1,5 @@
 # Barcelona Fauna
+![Barcelona fauna layout](https://raw.githubusercontent.com/marcduranxanco/barcelona-fauna/master/img/bcn-fauna.png)
 
 ## Basic layout created with
 * HTML5
