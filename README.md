@@ -1,7 +1,6 @@
-# Reto 1 - Website
-### GeekHubs Academy - Bootcamp Full Stack Developer
+# Barcelona Fauna
 
-## Technologies used
+## Basic layout created with
 * HTML5
 * CSS3
 * Layout ( Flex + Grid)
@@ -10,3 +9,4 @@
 
 ## Author
 * **Marc Duran**
+* For: **GeekHubs Academy - Bootcamp Full Stack Developer**
